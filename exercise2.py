@@ -5,3 +5,7 @@ print("$" + str(baseCost) + " is the base cost, let's give a 20% tip of $" + str
 #Question 2: Try adding a string and an integer with the + operator. What happens? Find a way to convert the integer into a string first and use print to print the result.
 #I may have accidentally done this as part of the previous exercise, but let's do it again anyway!
 print("If we start with 10 and add 5 to it, we end up with " + str(10+5))
+
+#Question 3: Try outputting the result of 45628 multiplied by 7839 in a sentence by using string interpolation.
+#Also may have made the first two into sentences, but let's continue on for good measure...
+print("This question wanted me to output the result of 45628 times 7839, which we all know is " + str(45628*7839))
