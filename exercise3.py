@@ -30,3 +30,5 @@
 #     print("Have a good day!")
 
 print("What is your name?")
+user_name = input()
+print("Hello, {}".format(user_name))
