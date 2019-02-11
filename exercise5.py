@@ -16,10 +16,10 @@ while distance_home >= 0:
     print("Would you like to walk or run?")
     response = input()
     if (response.lower() == "walk"):
-        distance_home = distance_home + 1
+        distance_home += 1
         print("Distance from home is {}km".format(distance_home))
     elif (response.lower() == "run"):
-        distance_home = distance_home + 5
+        distance_home += 5
         print("Distance from home is {}km".format(distance_home))
     else:
         print("Sorry, that's an invalid input")
