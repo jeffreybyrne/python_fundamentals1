@@ -16,7 +16,7 @@ while still_out == True:
         distance_home += 5
         print("Distance from home is {}km".format(distance_home))
     elif (response.lower() == "go home"):
-        #Had to change what I was looping over, but now if they want
+        #Had to change what I was looping over, but now if they want to go home, they can
         still_out = False
         print("Hope you had fun on your walk! Your total distance was {}km today.".format(distance_home))
     else: #Oops, apparently I already did this part earlier
