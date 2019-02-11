@@ -15,7 +15,10 @@ distance_home = 0 #User starts at home, so the initial distance is 0
 run_count = 0 #Will be used to track how many times in a row the user has run
 run_distance = 5 #Distance the user moves by running, starts at 5
 still_out = True #Tracking whether or not they're still playing, basically
+
+#Initial prompt
 print("What would you like to do? Your options are: \nwalk \nrun \ngo home \neat \nrest \nremind (this will list these instructions again)")
+
 while still_out == True:
     if distance_home >= 500: #Easter egg! You've won the game if you get this far
         print("The Proclaimers would be proud of you but this is kilometres, not miles. Either way you've won the game and it only took you {} moves!".format(move_count))
